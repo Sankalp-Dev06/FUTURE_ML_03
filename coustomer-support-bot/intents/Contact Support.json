@@ -1,24 +1,31 @@
 {
+  "id": "ea62b9af-0983-42aa-a89a-165b3495808e",
   "name": "Contact Support",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [
-        { "name": "contact_support_given", "lifespan": 2 }
+        {
+          "name": "contact_support_given",
+          "lifespan": 2
+        }
       ],
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "You can reach our support team at support@example.com or call 1800-123-4567. Would you like me to connect you now?"
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -27,16 +34,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [],
-  "templates": [],
-  "lastUpdate": 0,
-  "counter": 0,
-  "isTemplate": false,
-  "cortanaCommand": "",
-  "intentName": "",
-  "actions": [],
-  "id": "",
-  "parentId": "",
-  "rootParentId": "",
-  "metadata": {}
-} 
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

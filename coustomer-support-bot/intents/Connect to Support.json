@@ -1,22 +1,28 @@
 {
+  "id": "835220bb-86d8-4edd-95c5-23150c0fb952",
   "name": "Connect to Support",
   "auto": true,
-  "contexts": ["contact_support_given"],
+  "contexts": [
+    "contact_support_given"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "Connecting you to a support representative now... Please wait."
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -25,16 +31,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [],
-  "templates": [],
-  "lastUpdate": 0,
-  "counter": 0,
-  "isTemplate": false,
-  "cortanaCommand": "",
-  "intentName": "",
-  "actions": [],
-  "id": "",
-  "parentId": "",
-  "rootParentId": "",
-  "metadata": {}
-} 
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

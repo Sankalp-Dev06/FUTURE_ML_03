@@ -1,30 +1,48 @@
 {
+  "id": "ab5e75bf-38f6-4b44-9037-a73b0d58c42b",
   "name": "Provide Refund Order ID",
   "auto": true,
-  "contexts": ["awaiting_refund_order_id"],
+  "contexts": [
+    "awaiting_refund_order_id"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
+          "id": "896f94bd-5abd-4396-81a5-d74fa0237437",
           "name": "order_id",
-          "dataType": "@sys.any",
-          "isList": false,
           "required": true,
-          "prompts": ["Please provide your order ID."]
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your order ID."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "Refund for order #$order_id is being processed and should be completed within 5-7 business days."
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,16 +51,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [],
-  "templates": [],
-  "lastUpdate": 0,
-  "counter": 0,
-  "isTemplate": false,
-  "cortanaCommand": "",
-  "intentName": "",
-  "actions": [],
-  "id": "",
-  "parentId": "",
-  "rootParentId": "",
-  "metadata": {}
-} 
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

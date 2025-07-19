@@ -1,46 +1,35 @@
 {
-  "name": "Default Welcome Intent",
+  "id": "fb3757cb-e77e-405a-ab4e-26dd82bd4ba0",
+  "name": "Default Fallback Intent",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
           "speech": [
-            "Hi! How can I help you today?"
-          ]
+            "Sorry, I didn’t understand that. Can you please rephrase?"
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
   "priority": 500000,
   "webhookUsed": false,
   "webhookForSlotFilling": false,
-  "fallbackIntent": false,
-  "events": [
-    {
-      "name": "WELCOME"
-    }
-  ],
-  "userSays": [],
-  "templates": [],
-  "lastUpdate": 0,
-  "counter": 0,
-  "isTemplate": false,
-  "cortanaCommand": "",
-  "intentName": "",
-  "actions": [],
-  "id": "",
-  "parentId": "",
-  "rootParentId": "",
-  "metadata": {
-    "isDefaultWelcomeIntent": true
-  }
+  "fallbackIntent": true,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
 }

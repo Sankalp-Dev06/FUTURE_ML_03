@@ -1,30 +1,48 @@
 {
+  "id": "410160fa-36b7-45be-abe1-446019006f21",
   "name": "Provide Change Order ID",
   "auto": true,
-  "contexts": ["awaiting_change_order_id"],
+  "contexts": [
+    "awaiting_change_order_id"
+  ],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [
         {
+          "id": "7c395b57-6f52-445d-a4d2-e4459a6a82e4",
           "name": "order_id",
-          "dataType": "@sys.any",
-          "isList": false,
           "required": true,
-          "prompts": ["Please provide your order ID."]
+          "dataType": "@sys.any",
+          "value": "$order_id",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your order ID."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
         }
       ],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
           "speech": [
             "Thank you! We will process the change/cancellation for order #$order_id. Our team will contact you if needed."
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],
@@ -33,16 +51,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [],
-  "templates": [],
-  "lastUpdate": 0,
-  "counter": 0,
-  "isTemplate": false,
-  "cortanaCommand": "",
-  "intentName": "",
-  "actions": [],
-  "id": "",
-  "parentId": "",
-  "rootParentId": "",
-  "metadata": {}
-} 
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

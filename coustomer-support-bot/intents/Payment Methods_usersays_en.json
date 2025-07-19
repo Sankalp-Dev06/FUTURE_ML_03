@@ -1,5 +1,38 @@
 [
-  { "data": [{ "text": "What payment methods do you accept?" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Can I pay with PayPal?" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Do you accept credit cards?" }], "isTemplate": false, "count": 0 }
-] 
+  {
+    "data": [
+      {
+        "text": "What payment methods do you accept?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Can I pay with PayPal?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Do you accept credit cards?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

@@ -1,7 +1,62 @@
 [
-  { "data": [{ "text": "Tell me about EMI" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Can I pay in installments?" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Is EMI available?" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Monthly payment option" }], "isTemplate": false, "count": 0 },
-  { "data": [{ "text": "Installment plan details" }], "isTemplate": false, "count": 0 }
-] 
+  {
+    "data": [
+      {
+        "text": "Tell me about EMI",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Can I pay in installments?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Is EMI available?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Monthly payment option",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "data": [
+      {
+        "text": "Installment plan details",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]
