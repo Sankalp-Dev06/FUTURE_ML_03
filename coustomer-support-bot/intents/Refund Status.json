@@ -1,0 +1,42 @@
+{
+  "name": "Refund Status",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        { "name": "awaiting_refund_order_id", "lifespan": 2 }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Please provide your order ID to check your refund status."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 

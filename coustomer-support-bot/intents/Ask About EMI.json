@@ -1,0 +1,40 @@
+{
+  "name": "Ask About EMI",
+  "auto": true,
+  "contexts": ["payment_info_given"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "EMI is available on select cards for orders above $1000. Would you like to proceed with EMI?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 

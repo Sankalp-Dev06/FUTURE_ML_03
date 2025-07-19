@@ -1,0 +1,5 @@
+[
+  { "data": [{ "text": "What payment methods do you accept?" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Can I pay with PayPal?" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Do you accept credit cards?" }], "isTemplate": false, "count": 0 }
+] 

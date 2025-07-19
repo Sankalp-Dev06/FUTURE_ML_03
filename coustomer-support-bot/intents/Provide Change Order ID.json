@@ -1,0 +1,48 @@
+{
+  "name": "Provide Change Order ID",
+  "auto": true,
+  "contexts": ["awaiting_change_order_id"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "order_id",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": ["Please provide your order ID."]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Thank you! We will process the change/cancellation for order #$order_id. Our team will contact you if needed."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 

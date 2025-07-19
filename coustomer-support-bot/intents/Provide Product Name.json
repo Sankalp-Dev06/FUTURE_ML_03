@@ -1,0 +1,48 @@
+{
+  "name": "Provide Product Name",
+  "auto": true,
+  "contexts": ["awaiting_product_name"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "product_name",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": ["Please provide the product name or SKU."]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Let me check the availability for '$product_name'..."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 

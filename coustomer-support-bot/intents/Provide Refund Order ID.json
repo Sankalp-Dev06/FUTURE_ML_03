@@ -1,0 +1,48 @@
+{
+  "name": "Provide Refund Order ID",
+  "auto": true,
+  "contexts": ["awaiting_refund_order_id"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "order_id",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": ["Please provide your order ID."]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Refund for order #$order_id is being processed and should be completed within 5-7 business days."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 

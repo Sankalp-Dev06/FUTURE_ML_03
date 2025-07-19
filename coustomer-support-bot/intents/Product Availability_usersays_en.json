@@ -1,0 +1,5 @@
+[
+  { "data": [{ "text": "Is product X in stock?" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Do you have [product] available?" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "When will [product] be back in stock?" }], "isTemplate": false, "count": 0 }
+] 

@@ -1,0 +1,7 @@
+[
+  { "data": [{ "text": "Received wrong item" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Product is defective" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Changed my mind" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Item arrived late" }], "isTemplate": false, "count": 0 },
+  { "data": [{ "text": "Found a better price elsewhere" }], "isTemplate": false, "count": 0 }
+] 

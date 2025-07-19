@@ -1,0 +1,48 @@
+{
+  "name": "Provide Return Reason",
+  "auto": true,
+  "contexts": ["awaiting_return_reason"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "return_reason",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": ["Please provide the reason for your return."]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Your return for order #$order_id due to '$return_reason' has been initiated. You’ll receive an email with next steps."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [],
+  "templates": [],
+  "lastUpdate": 0,
+  "counter": 0,
+  "isTemplate": false,
+  "cortanaCommand": "",
+  "intentName": "",
+  "actions": [],
+  "id": "",
+  "parentId": "",
+  "rootParentId": "",
+  "metadata": {}
+} 
