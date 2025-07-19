@@ -38,7 +38,6 @@ Chat_bot/
 ├── requirements.txt                # Python dependencies
 ├── README.md                       # This file
 ├── .gitignore                      # Git ignore rules
-├── dialogflow_service_account.json # (Not committed) Dialogflow credentials
 └── coustomer-support-bot/
     └── intents/                    # Dialogflow intents (JSON)
 ```
@@ -51,6 +50,9 @@ Chat_bot/
 - Tweak the CSS for your brand colors or style.
 
 ---
+## 👤 Author
 
-## 📞 Support
-For help, open an issue or contact the maintainer.
+**Developed by:**  
+- Sankalp Tiwari  
+- [LinkedIn](www.linkedin.com/in/sankalp-tiwari-350545203)  
+- [GitHub](https://github.com/Sankalp-Dev06)
