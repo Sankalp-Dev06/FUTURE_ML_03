@@ -24,9 +24,11 @@ The UI is inspired by Telegram, featuring chat bubbles, avatars, and a vertical 
 
 ---
 
-## 🌐 Deployment
-- You can deploy this app for free on [Streamlit Community Cloud](https://streamlit.io/cloud) or any cloud VM.
-- For Streamlit Cloud, add your `dialogflow_service_account.json` as a secret.
+## 🌐 Preview
+<img width="1915" height="788" alt="Screenshot 2025-07-20 003845" src="https://github.com/user-attachments/assets/771aa309-d783-4305-bb24-5cb4f127d9c1" />
+<img width="1914" height="518" alt="Screenshot 2025-07-20 003906" src="https://github.com/user-attachments/assets/18f82e4b-045c-44e1-a730-b466fdd86036" />
+<img width="1916" height="661" alt="Screenshot 2025-07-20 003951" src="https://github.com/user-attachments/assets/c2f58253-a170-4f03-b5a1-8a792629342c" />
+<img width="1914" height="797" alt="Screenshot 2025-07-20 004059" src="https://github.com/user-attachments/assets/176cf7c0-2af9-4880-8b1d-cce63c4cdd59" />
 
 ---
 
